@@ -3,7 +3,7 @@ import "./App.css";
 import { useEffect } from "react";
 import { useState } from "react";
 
-const apiServer = process.env.REACT_APP_API_SERVER;
+const apiServer = "http://192.168.49.2.nip.io";
 
 function App() {
   const [status, setStatus] = useState();
